@@ -1,0 +1,16 @@
+if CANTOR38_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Cantor-38"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if CANTOR38_LEFT || CANTOR38_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

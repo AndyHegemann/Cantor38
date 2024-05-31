@@ -1,0 +1,7 @@
+config CANTOR38_LEFT
+    def_bool $(shields_list_contains,cantor38_left)
+
+config CANTOR38_RIGHT
+    def_bool $(shields_list_contains,cantor38_right)
+
+CONFIG_ZMK_KSCAN_DIRECT_POLLING=y

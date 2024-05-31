@@ -1,0 +1,12 @@
+file_format: "1"
+id: cantor38
+name: Cantor-38
+type: shield
+url: https://github.com/AndyHegemann/Cantor38
+requires: [pro_micro]
+exposes:
+features:
+  - keys
+siblings:
+  - cantor38_left
+  - cantor38_right
