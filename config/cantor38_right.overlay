@@ -1,5 +1,0 @@
-#include "cantor38.dtsi"
-
-&default_transform {
-    col-offset = <19>;
-};
