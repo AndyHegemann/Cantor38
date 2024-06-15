@@ -222,7 +222,12 @@ ZMK_MACRO(win_sleep,
 /* Keymap */
 
 
-//TODO  add space, move shift, add slash, add quotes, add combos with upper buttons 
+//TODO  add space, move shift, add slash, add quotes, add combos with upper buttons
+
+//Modified version of Handsdown Neu 
+//w  f  m  p  v     /  .  q  "  z
+//r  s  n  t  b     ,  a  e  i  h
+//x  c  l  d  g     j  u  o  y  k 
 
 
 ZMK_CONDITIONAL_LAYER(FN NUM, SYS)  // FN + NUM --> SYS
