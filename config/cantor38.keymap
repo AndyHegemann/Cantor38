@@ -2,9 +2,9 @@
 #include "zmk-helpers/key-labels/36.h"
 
 /* map Cantor-38's extra keys */
-#define X_MB &kp F2 &kp F3  // thumb row, upper
-#define X_LH &bootloader  // thumb row, left
-#define X_RH &kp F1  // thumb row, right
+#define X_MB &bootloader &bootloader // thumb row, upper
+#define X_LH &smart_shft  // thumb row, left
+#define X_RH &bootloader  // thumb row, right
 
 /* activate bluetooth */
 #define CONFIG_WIRELESS 1

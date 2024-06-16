@@ -222,7 +222,7 @@ ZMK_MACRO(win_sleep,
 /* Keymap */
 
 
-//TODO  add space, move shift, add slash, add quotes, add combos with upper buttons
+//TODO  move shift, add combos with upper buttons
 
 //Modified version of Handsdown Neu 
 //w  f  m  p  v     /  .  q  "  z
@@ -234,13 +234,13 @@ ZMK_CONDITIONAL_LAYER(FN NUM, SYS)  // FN + NUM --> SYS
 
 ZMK_LAYER(base,
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-    X_LT     &kp W         &kp F         &kp M         &kp P         &kp V           X_MT     &kp ___       &dot_morph    &kp Q         &kp ___         &kp Z         X_RT
+    X_LT     &kp W         &kp F         &kp M         &kp P         &kp V           X_MT     &kp FSLH      &dot_morph    &kp Q         &kp SQT         &kp Z         X_RT
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
     X_LM     &hml LGUI R   &hml LALT S   &hml LSHFT N  &hml LCTRL T  &kp B           X_MM     &comma_morph  &hmr LCTRL A  &hmr RSHFT E  &hmGTSRAr LALT I  &hmr LGUI H  X_RM
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
     X_LB     &kp X         &kp C         &kp L         &kp D         &kp G           X_MB     &kp J         &kp U         &kp O         &kp Y          &kp K          X_RB
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯ ├──────┤
-    X_LH                                               &lt_spc NAV 0 &lt FN RET      X_MH     SMART_NUM     &smart_shft                                               X_RH
+    X_LH                                               &lt_spc NAV 0 &lt FN RET      X_MH     SMART_NUM     bs_del                                                    X_RH
 //╰──────╯                                           ╰─────────────┴─────────────╯ ╰──────╯ ╰─────────────┴─────────────╯                                           ╰──────╯
 )
 
