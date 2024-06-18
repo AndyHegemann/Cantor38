@@ -223,7 +223,7 @@ ZMK_MACRO(win_sleep,
 /* Keymap */
 
 
-//TODO  add combos with upper buttons, add left alt for numpad uni-code entry?, add qwerty layer?
+//TODO  fix combos on the lower right row the key helpers are probably wrong with the additional keys, add combos with upper buttons, add left alt for numpad uni-code entry?, add qwerty layer?
 
 //Modified version of Handsdown Neu 
 //w  f  m  p  v     /  .  q  "  z
