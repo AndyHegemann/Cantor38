@@ -13,10 +13,9 @@
 
 #define DEF 0
 #define NAV 1
-#define FN 2
-#define NUM 3
-#define SYS 4
-#define MOUSE 5
+#define NUM 2
+#define SYS 3
+#define MOUSE 4
 
 #include "combos.dtsi"  // requires layer aliases
 #include "mouse.dtsi"
