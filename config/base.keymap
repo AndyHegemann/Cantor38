@@ -16,8 +16,7 @@
 #define FN 2
 #define NUM 3
 #define SYS 4
-#define UC 5
-#define MOUSE 6
+#define MOUSE 5
 
 #include "combos.dtsi"  // requires layer aliases
 #include "mouse.dtsi"
@@ -221,12 +220,17 @@ ZMK_MACRO(win_sleep,
 
 // misc aliases
 #define CANCEL      &kp K_CANCEL             // cancel caps-word, num-word and smart-mouse
-#define DSK_PREV    &hmr LCTRL LG(LC(LEFT))   // previous desktop
-#define DSK_NEXT    &hmr LALT LG(LC(RIGHT)) // next     desktop
-#define PIN_WIN     &kp LG(LC(LS(Q)))        // pin window across desktops
-#define PIN_APP     &kp LG(LC(LS(A)))        // pin application across desktops
-#define DSK_MGR     &kp LA(GRAVE)            // desktop manager
-#define VOL_DOWN    &hmr RSHFT C_VOL_DN
+// #define DSK_PREV    &hmr LCTRL LG(LC(LEFT))   // previous desktop
+// #define DSK_NEXT    &hmr LALT LG(LC(RIGHT)) // next     desktop
+// #define PIN_WIN     &kp LG(LC(LS(Q)))        // pin window across desktops
+// #define PIN_APP     &kp LG(LC(LS(A)))        // pin application across desktops
+// #define DSK_MGR     &kp LA(GRAVE)            // desktop manager
+// #define VOL_DOWN    &hmr RSHFT C_VOL_DN
+
+
+
+
+
 
 /* Keymap */
 
@@ -299,18 +303,6 @@ ZMK_LAYER(sys,
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯ ├──────┤
     X_LH                                               ___           ___             X_MH     ___           ___                                                       X_RH
 //╰──────╯                                           ╰─────────────┴─────────────╯ ╰──────╯ ╰─────────────┴─────────────╯                                           ╰──────╯
-)
-
-ZMK_LAYER(uc,
-//╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-    X_LT     ___           &el_omega     &el_phi       &el_pi        &el_beta        X_MT     ___           &el_lambda    &el_upsilon   &el_psi       &de_eszett      X_RT
-//├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LM     &el_alpha     &el_rho       &el_sigma     &el_tau       &el_gamma       X_MM     &el_mu        &el_nu        &el_epsilon   &el_iota      &el_omikron     X_RM
-//├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LB     &el_zeta      &el_xi        &el_chi       &el_delta     &el_theta       X_MB     &el_kappa     &el_eta       &de_ae        &de_oe        &de_ue          X_RB
-//├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯ ├──────┤
-    X_LH                                               ___           ___             X_MH     ___           ___                                                       X_RH
-//╰──────╯                                           ╰─────────────┴─────────────╯ ╰──────╯ ╰───────────────────────────╯                                           ╰──────╯
 )
 
 ZMK_LAYER(mouse,
