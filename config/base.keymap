@@ -224,6 +224,9 @@ ZMK_MACRO(win_sleep,
 
 
 //TODO  fix combos on the lower right row the key helpers are probably wrong with the additional keys, add combos with upper buttons, add left alt for numpad uni-code entry?, add qwerty layer?
+// modify copy paste combos
+//figure out how to cancel smart shift once activated
+//w, f, m, p, v, x, c, l, g, q, z, j, o, y, k, d
 
 //Modified version of Handsdown Neu 
 //w  f  m  p  v     /  .  q  "  z
