@@ -1,10 +1,10 @@
 /*         38 KEY MATRIX / LAYOUT MAPPING
 
  ╭─────────────────────────┬─────────────────────────╮
- │   0   1   2   3   4     │      23  22  21  20  19 │
- │   5   6   7   8   9     │      28  27  26  25  24 │
- │  10  11  12  13  14  15 │  34  33  32  31  30  29 │
- ╰───────────╮  16  17  18 │  37  36  35 ╭───────────╯
+ │   0   1   2   3   4     │       5   6   7   8   9 │
+ │  10  11  12  13  14     │      15  16  17  18  19 │
+ │  20  21  22  23  24  25 │  26  27  28  29  30  31 │
+ ╰───────────╮  32  33  34 │  35  36  37 ╭───────────╯
              ╰─────────────┴─────────────╯         
 
  ╭─────────────────────────┬─────────────────────────╮
@@ -27,48 +27,48 @@
 #define LT4  0
 
 // right-top row
-#define RT0 23
-#define RT1 22
-#define RT2 21
-#define RT3 20
-#define RT4 19
+#define RT0  5
+#define RT1  6
+#define RT2  7
+#define RT3  8
+#define RT4  9
 
 // left-middle row
-#define LM0  9
-#define LM1  8
-#define LM2  7
-#define LM3  6
-#define LM4  5
+#define LM0 14
+#define LM1 13
+#define LM2 12
+#define LM3 11
+#define LM4 10
 
 // right-middle row
-#define RM0 28
-#define RM1 27
-#define RM2 26
-#define RM3 25
-#define RM4 24
+#define RM0 15
+#define RM1 16
+#define RM2 17
+#define RM3 18
+#define RM4 19
 
 // left-bottom row
-#define LB0 14
-#define LB1 13
-#define LB2 12
-#define LB3 11
-#define LB4 10
+#define LB0 24
+#define LB1 23
+#define LB2 22
+#define LB3 21
+#define LB4 20
 
 // right-bottom row
-#define RB0 33
-#define RB1 32
-#define RB2 31
+#define RB0 27
+#define RB1 28
+#define RB2 29
 #define RB3 30
-#define RB4 29
+#define RB4 31
 
 // left thumb keys
-#define LH0 18
-#define LH1 17
-#define LH2 16
-#define LH3 15
+#define LH0 34
+#define LH1 33
+#define LH2 32
+#define LH3 25
 
 // right thumb keys
-#define RH0 37  
+#define RH0 35
 #define RH1 36
-#define RH2 35
-#define RH3 34
+#define RH2 37
+#define RH3 26
