@@ -2,7 +2,7 @@
 #include "cantor_keylabels.h"
 
 /* map Cantor-38's extra keys */
-#define X_MB &bootloader &bootloader // thumb row, upper
+#define X_MB &trans &trans // thumb row, upper
 #define X_LH SMART_NUM  // thumb row, left
 #define X_RH SMART_NAV  // thumb row, right
 
