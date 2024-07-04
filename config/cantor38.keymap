@@ -1,5 +1,5 @@
 /* source key position labels */
-#include "zmk-helpers/key-labels/36.h"
+#include "cantor_keylabels.h"
 
 /* map Cantor-38's extra keys */
 #define X_MB &bootloader &bootloader // thumb row, upper
