@@ -11,8 +11,8 @@
 #include "zmk-helpers/unicode-chars/greek.dtsi"
 #include "zmk-helpers/unicode-chars/german.dtsi"
 
-#define QWT 0
-#define DEF 1
+#define DEF 0
+#define QWT 1
 #define NAV 2
 #define NUM 3
 #define SYS 4
