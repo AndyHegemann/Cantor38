@@ -128,13 +128,13 @@ ZMK_TAP_DANCE(num_dance,
 };
 
 // tap: sticky nav-layer | hold: nav-layer
-#define SMART_NAV &smart_nav NAV NAV
-ZMK_HOLD_TAP(smart_nav,
-    flavor = "balanced";
-    tapping-term-ms = <200>;
-    quick-tap-ms = <QUICK_TAP_MS>;
-    bindings = <&mo>, <&sl>;
-)
+// #define SMART_NAV &smart_nav NAV NAV
+// ZMK_HOLD_TAP(smart_nav,
+//     flavor = "balanced";
+//     tapping-term-ms = <200>;
+//     quick-tap-ms = <QUICK_TAP_MS>;
+//     bindings = <&mo>, <&sl>;
+// )
 
 // smart-mouse, requires PR #1366
 ZMK_TRI_STATE(smart_mouse,
