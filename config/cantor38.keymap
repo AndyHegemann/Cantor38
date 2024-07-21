@@ -4,7 +4,7 @@
 /* map Cantor-38's extra keys */
 #define X_MB &trans &trans // thumb row, upper
 #define X_LH SMART_NUM  // thumb row, left
-#define X_RH SMART_NAV  // thumb row, right
+#define X_RH SMART_NUM  // thumb row, right
 
 /* activate bluetooth */
 #define CONFIG_WIRELESS 1
@@ -14,3 +14,4 @@
 
 /* use 5-column layout for Zen */
 ZMK_APPLY_MATRIX_TRANSFORM(default_transform)
+
