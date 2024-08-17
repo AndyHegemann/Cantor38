@@ -12,8 +12,8 @@
 #include "zmk-helpers/unicode-chars/german.dtsi"
 
 #define DEF 0
-#define QWT 1
-#define GAME 2
+#define GAME 1
+#define QWT 2
 #define NUM 3
 #define FN 4
 #define SYS 5
