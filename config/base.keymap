@@ -6,10 +6,12 @@
 #else
     #define _BT_SEL_KEYS_ &trans &trans &trans &trans &trans
 #endif
+#include <dt-bindings/zmk/outputs.h>
 
 #include "zmk-helpers/helper.h"
 #include "zmk-helpers/unicode-chars/greek.dtsi"
 #include "zmk-helpers/unicode-chars/german.dtsi"
+
 
 #define DEF 0
 #define GAME 1
@@ -303,7 +305,7 @@ ZMK_LAYER(fn,
 
 ZMK_LAYER(sys,
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-    X_LT                                _BT_SEL_KEYS_                                X_MT     ___           ___           ___           ___           ___             X_RT
+    X_LT                                _BT_SEL_KEYS_                                X_MT     &out OUT_TOG  ___           ___           ___           ___             X_RT
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
     X_LM     ___           ___           ___           ___           &bootloader     X_MM     &bootloader   ___           ___           ___           ___             X_RM
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
