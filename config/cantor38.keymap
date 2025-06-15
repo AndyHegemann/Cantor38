@@ -7,7 +7,7 @@
 #define X_RH TOG_NUM  // thumb row, right
 
 
-#define X_LH_GAME LSHIFT  // thumb row, left
+#define X_LH_GAME &kp LSHIFT  // thumb row, left
 #define X_RH_GAME TOG_NUM  // thumb row, right
 
 
