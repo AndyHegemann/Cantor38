@@ -51,7 +51,7 @@ ZMK_COMBO(gt,    &kp GT,        RM2 RM3,            , COMBO_TERM_FAST, COMBO_IDL
 
 ZMK_COMBO(lbkt,  &kp LBKT,      RB1 RB2,     DEF     NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(rbkt,  &kp RBKT,      RB2 RB3,     DEF     NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
-ZMK_COMBO(lbrc,  &kp LBRC,      RB1 RB2,            , COMBO_TERM_FAST, COMBO_IDLE_FAST)as
+ZMK_COMBO(lbrc,  &kp LBRC,      RB1 RB2,            , COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(rbrc,  &kp RBRC,      RB2 RB3,            , COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
 
