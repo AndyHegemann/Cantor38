@@ -6,6 +6,11 @@
 #define X_LH TOG_NUM  // thumb row, left
 #define X_RH TOG_NUM  // thumb row, right
 
+
+#define X_LH_GAME LSHIFT  // thumb row, left
+#define X_RH_GAME TOG_NUM  // thumb row, right
+
+
 /* activate bluetooth */
 #define CONFIG_WIRELESS 1
 
